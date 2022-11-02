@@ -24,7 +24,7 @@ h5 {
 }
 
 h7 {
-    color: #eee;
+    color: rgb(33, 6, 6);
 }
 
 a {
@@ -736,15 +736,17 @@ a:hover {
 .about-mf .box-shadow-full {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    background-image: url(./img/AB1.jpeg);
+    background-image: url(./img/AB12.jpeg);
 }
 
 .about-mf .about-img {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .about-mf .about-img img {
     margin-left: 10px;
+    height: 400px;
+    width: 600px;
 }
 
 @media (min-width: 767px) {
