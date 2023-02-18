@@ -262,7 +262,7 @@ a:hover {
     line-height: 2;
 }
 
-.list-ico span {
+.list-ico .span {
     color: #ff6600;
     margin-right: 10px;
 }
@@ -294,7 +294,7 @@ a:hover {
     display: inline-block;
 }
 
-.owl-theme .owl-dots .owl-dot span {
+.owl-theme .owl-dots .owl-dot .span {
     width: 18px;
     height: 7px;
     margin: 5px 5px;
@@ -305,11 +305,11 @@ a:hover {
     cursor: pointer;
 }
 
-.owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot:hover .span {
     background-color: #cde1f8;
 }
 
-.owl-theme .owl-dots .owl-dot.active span {
+.owl-theme .owl-dots .owl-dot.active .span {
     background-color: #1B1B1B;
     width: 25px;
 }
@@ -322,7 +322,7 @@ a:hover {
     display: none;
 }
 
-.scrolltop-mf span {
+.scrolltop-mf .span {
     z-index: 999;
     position: fixed;
     width: 42px;
@@ -599,7 +599,7 @@ a:hover {
     outline: 0;
 }
 
-.navbar-toggler span {
+.navbar-toggler .span {
     display: block;
     background-color: #fff;
     height: 3px;
@@ -611,12 +611,12 @@ a:hover {
     opacity: 1;
 }
 
-.navbar-toggler span:nth-child(1),
-.navbar-toggler span:nth-child(3) {
+.navbar-toggler .span:nth-child(1),
+.navbar-toggler .span:nth-child(3) {
     transition: transform .35s ease-in-out;
 }
 
-.navbar-toggler:not(.collapsed) span:nth-child(1) {
+.navbar-toggler:not(.collapsed) .span:nth-child(1) {
     position: absolute;
     left: 12px;
     top: 10px;
@@ -624,13 +624,13 @@ a:hover {
     opacity: 0.9;
 }
 
-.navbar-toggler:not(.collapsed) span:nth-child(2) {
+.navbar-toggler:not(.collapsed) .span:nth-child(2) {
     height: 12px;
     visibility: hidden;
     background-color: transparent;
 }
 
-.navbar-toggler:not(.collapsed) span:nth-child(3) {
+.navbar-toggler:not(.collapsed) .span:nth-child(3) {
     position: absolute;
     left: 12px;
     top: 10px;
@@ -736,7 +736,9 @@ a:hover {
 .about-mf .box-shadow-full {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    background-image: url(./img/AB12.jpeg);
+    -webkit-box-shadow: 4px 4px 15px gray;
+    box-shadow: 4px 4px 15px gray;
+    border-radius: 0.5rem;
 }
 
 .about-mf .about-img {
@@ -756,7 +758,7 @@ a:hover {
     }
 }
 
-.skill-mf span {
+.skill-mf .span {
     color: #4e4e4e;
 }
 
@@ -1062,7 +1064,7 @@ a:hover {
     color: #0078ff;
 }
 
-.box-comments .list-comments span {
+.box-comments .list-comments .span {
     color: #1e1e1e;
     font-style: italic;
 }
